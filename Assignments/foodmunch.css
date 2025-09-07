@@ -1,0 +1,45 @@
+body{
+ font-family: 'Segoe UI', sans-serif;
+ line-height: 1.4;
+  background-color: #f4f7f7;
+  font-size: medium;
+}
+hr{
+    border:1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 150px;
+}
+#main{
+    height: 500px;
+    width: 1430px;
+    background-color:white;
+    padding:30px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin-right: 50px;
+}
+
+.nav-links a {
+  color: gray;
+  text-decoration: none ;
+  transition: color 0.3s;
+}
+.img1{
+    width: 100%;
+    height: 450px;
+}
